@@ -60,6 +60,15 @@ body{
     margin-block: 20px;
 
 }
+#alertbox{
+    margin-top:10px;
+    width:100%;
+    font-size: 12px;
+    color: black;
+    background-color: rgb(194, 212, 206);
+    padding: 10px;
+    border-radius: 10px;
+}
 .weather-body img{
     width: 60%;
 }
@@ -120,3 +129,4 @@ body{
     color: rgb(70, 67, 63);
     margin-block-end:15px;
 }
+
