@@ -50,6 +50,9 @@ let date = new Date();
         case 'Rain':
             weather_img.src = "rain.png";
              break;
+       case 'Fog':
+            weather_img.src = "mist.png";
+             break; 
     }
   
   switch(weather_data.weather[0].main){
@@ -83,6 +86,7 @@ let date = new Date();
 searchBtn.addEventListener('click',()=>{
     checkweather(inputBox.value)
 })
+
 
 
 
